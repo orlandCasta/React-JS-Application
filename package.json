@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "npm-run-all -p client server",
+    "start": "set PORT=4000 && npm-run-all -p client server",
     "client": "react-scripts start",
     "server": "json-server --port 3001 --watch server/db.json",
     "seed": "node server/seed.js",
@@ -12,6 +12,7 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
+    "bootstrap": "^4.5.3",
     "react": "16.8.3",
     "react-dom": "16.8.3",
     "react-scripts": "2.1.5"
