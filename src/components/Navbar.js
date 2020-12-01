@@ -10,8 +10,8 @@ class Navbar extends React.Component{
                 <div className="Navbar__brand">
                     <Link clasName="Navbar_brand-logo" to="/">
                         <img className="Navbar__brand-logo" src={logo} alt="Logo"/>
-                        <span className="font-weight-light">conferencias</span>
-                        <span className="font-weight-bold">.com</span>
+                        <span className="font-weight-light">Platzi</span>
+                        <span className="font-weight-bold">Conf</span>
                     </Link>
                 </div>
             </div>
