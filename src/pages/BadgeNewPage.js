@@ -5,6 +5,7 @@ import PageLoading from '../components/PageLoading';
 import logo from '../images/platziconf-logo.svg';
 import api from '../api';
 import './styles/BadgeNew.css';
+import User from '../images/user.png';
 
 class BadgeNew extends React.Component{
 
@@ -60,7 +61,7 @@ class BadgeNew extends React.Component{
                             jobTitle={this.state.form.jobTitle || 'Job Title'}
                             github={this.state.form.github || 'Github'}
                             email={this.state.form.email || 'Email'}
-                            avatarUrl="https://res.cloudinary.com/cozyplace/image/upload/v1605913060/me_bkx8za.jpg"
+                            avatarUrl={User}
                             />
                         </div>
                         <div className="col-6">

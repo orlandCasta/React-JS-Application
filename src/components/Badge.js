@@ -1,5 +1,6 @@
 import React from 'react';
-import "./styles/Badge.css"
+import "./styles/Badge.css";
+import User from '../images/user.png';
 
 class Badge extends React.Component {
     render(){
@@ -19,7 +20,7 @@ class Badge extends React.Component {
             </div>
 
             <div className="Badge__section-name">
-                <img className="Badge__avatar" src={avatarUrl} alt="imagen personal"></img>
+                <img className="Badge__avatar" src={User} alt="imagen personal"></img>
                 <h1>{firstName}<br/>{lastName}</h1>
             </div>
 
