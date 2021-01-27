@@ -13,7 +13,7 @@ function App() {
         <BrowserRouter>
             <Layout>
                 <Switch>
-                    <Route exact path="/" component={Home} />
+                    <Route exact path="/React-JS-Application" component={Home} />
                     <Route exact path="/badges" component={BadgesPage}/>
                     <Route exact path="/badges/new" component={BadgeNewPage}/>
                     <Route exact path="/badges/:badgeId" component={BadgeDetailsContainerPage}/>
